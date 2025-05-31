@@ -396,21 +396,18 @@
   align-items: flex-start;
 }
 
-/* Defina uma classe para o Link em si */
 .solicitarAjusteLinkWrapper {
-  text-decoration: none; /* ISTO REMOVE O SUBLINHADO DO LINK */
-  display: block; /* Ou inline-block, ou flex, dependendo do layout que você quer para o Link no fluxo do documento */
-  margin-top: -0.989rem; /* Movido para o Link, se você quiser que ele controle o espaçamento */
-  width: 19.625rem; /* Movido para o Link, se você quiser que ele controle a largura */
-  height: 3.125rem; /* Movido para o Link, se você quiser que ele controle a altura */
-  /* Quaisquer outras propriedades de layout que você queira aplicar ao container do Link */
+  text-decoration: none;
+  display: block;
+  margin-top: -0.989rem;
+  width: 19.625rem;
+  height: 3.125rem;
 }
 
-/* Mantenha sua classe para o button (o elemento visual do botão) */
 .solicitarAjusteButton {
   display: flex;
-  width: 100%;   /* Faça o botão ocupar a largura total do Link pai */
-  height: 100%;  /* Faça o botão ocupar a altura total do Link pai */
+  width: 100%;  
+  height: 100%; 
   padding: 0.6875rem 7.4375rem;
   justify-content: center;
   align-items: center;
